@@ -1,0 +1,395 @@
+@charset "UTF-8";
+
+/* Rescaling Header on breakpoints ------------------------ 
+-------------------------------------------------------- */
+header {
+    overflow: hidden;
+    -webkit-transition: height .25s;
+    -moz-transition: height .25s;
+    -ms-transition: height .25s;
+    -o-transition: height .25s;
+    transition: height .25s; 
+}
+
+/* Body and Container Styles ------------------------------ 
+-------------------------------------------------------- */
+.container {
+    max-width: 760px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    min-width: 425px
+}
+
+.headermargin {
+    margin-top: 90px;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+p {
+  margin-bottom: 40px
+  line-height: 2;
+}
+
+.aboutme {
+    align-content: center;
+    text-align:left;
+    max-width: 760px
+  }
+
+.container-fluid {
+    padding-top:1px;
+  }
+
+.col-sm-6 {
+    text-align: center;
+  }
+
+.btn-resume {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.resume {
+    background-color:#f7f7f7;
+}
+
+.home { 
+    color: #3295A8; /* Smooth transform <p> in header to blue color*/
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 5px; 
+    transition: font-size .25s linear; 
+    -o-transition: font-size .25s linear; 
+    -moz-transition: font-size .25s linear; 
+    -webkit-transition: font-size .25s linear; 
+}
+
+
+blockquote {
+    font-size: 2em;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+     /*Font*/
+    line-height: 1.5;
+    color: #666;
+    position: relative;
+}
+
+blockquote::before {
+     content: "\201C"; /*Unicode for Left Double Quote*/
+     font-size: 3em;
+     font-family: Georgia, serif;
+     margin:0px;
+     float: left;
+     top:-40px;
+     position: relative;
+     padding:0px 20px 0px 20px;
+      margin-right: 0.25em;
+    vertical-align: -0.25em;
+/** define it as a block element **/  
+    display: block;  
+    height: 20px;  
+    width: 20px; 
+}
+
+blockquote::after {
+     content: "\201D"; /*Unicode for Right Double Quote*/
+     font-size: 3em;
+     font-family: Georgia, serif;
+     float: right;
+     position: absolute;
+     padding: 10px;
+}
+
+.overview {
+  line-height: 2;
+}
+
+button {
+  background-color: #fff;
+  margin: 40px;
+  padding:10px;
+  font-size: 1.25em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center; padding: 100px 40px 40px 40px
+}
+
+/* Hide/Show Nav on Scroll Transition --------------------- 
+-------------------------------------------------------- */
+ul {
+    z-index: 1;
+    display: none;
+    opacity: 0;
+    animation: on .25s linear;
+    -webkit-transition: linear .25s;
+    -moz-transition: linear .25s;
+    -ms-transition: linear .25s;
+    -o-transition: linear .25s;
+    transition: linear .25s; 
+}
+
+ul.alt {
+    height: 100px;
+    display: inline;
+    opacity: 1;
+    animation: on .25s linear; 
+    -webkit-transition: linear .25s;
+    -moz-transition: linear .25s;
+    -ms-transition: linear .25s;
+    -o-transition: linear .25s;
+    transition: linear .25s; 
+}
+
+@keyframes on {
+  0%        { opacity: 0}
+  100%      { opacity: 1 }
+}
+/* FadeIn Classes -----------------------------------------
+-------------------------------------------------------- */ 
+.hidden{
+  opacity: 0;
+}
+
+.visible{
+  opacity: 1;
+}
+
+/* Smooth breakpoints on <header>, <h1>, <h2>, <p>, <li> --
+-------------------------------------------------------- */ 
+h1 { 
+    font-size: 2.25em;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin:0px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+h1.projecttitle { 
+    font-size: 2.25em;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin:10px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 50px auto auto auto;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: normal;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+nav {
+    font-size: 1em;
+    margin:0px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+header h1 { /*Smooth transform <h1> in header*/
+    margin: 0px 0px;
+    transition: font-size .25s linear; 
+    -o-transition: font-size .25s linear; 
+    -moz-transition: font-size .25s linear; 
+    -webkit-transition: font-size .25s linear; 
+}
+
+header p { 
+    color: #3295A8; /* Smooth transform <p> in header to blue color*/
+    font-size: 1.25em;
+    font-weight: normal; 
+    transition: font-size .25s linear; 
+    -o-transition: font-size .25s linear; 
+    -moz-transition: font-size .25s linear; 
+    -webkit-transition: font-size .25s linear; 
+}
+
+h2 { 
+    color: #3295A8; /* Smooth transform <h2> in header to blue color*/
+    transition: font-size .25s linear; 
+    -o-transition: font-size .25s linear; 
+    -moz-transition: font-size .25s linear; 
+    -webkit-transition: font-size .25s linear; 
+}
+
+li {
+    transition: font-size .25s linear; /* Smooth transform <li> in nav*/
+    -o-transition: font-size .25s linear; 
+    -moz-transition: font-size .25s linear; 
+    -webkit-transition: font-size .25s linear; 
+}
+
+/* Breakpoint at 991px width*/
+@media screen and (max-width: 950px) {
+
+h1 {
+    font-size: 1.5em;
+}
+  
+h2 { 
+    color: #CC5077; /* Smooth transform <h2> in header to red color*/
+    font-size: 1.3em;
+}
+
+.home { 
+    color: #CC5077; /* Smooth transform <p> in nav to red color*/
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0px 0px;
+}
+
+nav{
+  font-size: 1em;
+  margin:0px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  transition: font-size .25s linear; 
+  -o-transition: font-size .25s linear; 
+  -moz-transition: font-size .25s linear; 
+  -webkit-transition: font-size .25s linear; 
+}
+
+header p { 
+  color: #CC5077; /* Smooth transform <p> in header to red color*/
+  font-size: 1.1em;
+}
+}
+{
+}
+
+/* Class for full width header image ----------------------
+-------------------------------------------------------- */
+.image-bg-fixed-height {
+  background: url('../cover_images/hoi_an.jpg') no-repeat center center scroll;
+  box-shadow: 0 -1px -2px rgba(0,0,0,0.16), 0 -1px -2px rgba(0,0,0,0.23);
+  text-align: center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+  padding: 100px 0;
+  height: 450px; 
+}
+
+/* Hover animation on card elements -----------------------
+-------------------------------------------------------- */
+.card {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15), 0 1px 2px rgba(0,0,0,0.15);
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  border: 0px;
+}
+
+.card-text {
+  display: none;
+}
+
+/* Tween frames for hover animation on card elements */
+@keyframes dropshadow-in {
+  0%        { box-shadow: 0 3px 6px rgba(0,0,0,0.15), 0 3px 6px rgba(0,0,0,0.15); }
+  25%       { box-shadow: 0 10px 20px rgba(0,0,0,0.15), 0 6px 6px rgba(0,0,0,0.15); }
+  100%      { box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.15); }
+}
+
+/* Initiate shadow animation on mouse hover */
+.card:hover {
+  animation: dropshadow-in .5s linear;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.15);
+}
+
+/* Set responsive breakpoints for xs, sm, m, lg, xl devices
+-------------------------------------------------------- */
+/* Extra small devices (portrait phones, less than 544px) */
+   @media (max-width: 543px) { 
+   .image-bg-fixed-height {
+       height: 100px;
+     }
+
+     header#feature {
+       display: none;
+       visibility: hidden;
+     }
+
+     nav {
+       min-width: 425px
+     }
+   }
+
+/* // Small devices (landscape phones, 544px and up) */
+   @media (min-width: 544px) and (max-width: 767px) { 
+    .image-bg-fixed-height {
+       height: 150px;
+     }
+
+     header#feature {
+       display: none;
+       visibility: hidden;
+     }
+
+     nav {
+       min-width: 425px
+     }
+
+    .container {
+       margin: 50px 0px 18px 18px;
+     }
+     }
+
+/* // Medium devices (tablets, 768px and up) */
+   @media (min-width: 768px) and (max-width: 991px) { 
+    .image-bg-fixed-height {
+     height: 225px;
+     }
+    }
+
+/* // Large devices (desktops, 992px and up) */
+   @media (min-width: 992px) and (max-width: 1199px) { 
+    .image-bg-fixed-height {
+     height: 300px;
+     }
+    }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1600px) { 
+    .image-bg-fixed-height {
+     height: 350px;
+     }
+    }
+
+.aligncontainer {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    position: relative;
+} 
+/*-----------------------------------------------------------*/

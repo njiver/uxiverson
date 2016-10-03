@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Nick Iverson | User Experience Designer</title>
+
+<!-- FontAwesome Glyphs -->
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+<!-- CSS Animations (FadeIn) -->
+<link rel="stylesheet" type="text/css" href="CSS_Animation_Effects/animate.css">
+
+<!-- Bootstrap 4 Alpha CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="CSS_Animation_Effects/style.css">
+
+<!-- Hide/Show Nav on Scroll -->
+<script src="js/responsive-nav.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 550,
+                ul = document.querySelector("ul");
+            if (distanceY > shrinkOn) {
+                classie.add(ul,"alt");
+            } else {
+                if (classie.has(ul,"alt")) {
+                    classie.remove(ul,"alt");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+
+</head>
+
+<!-- Begin Body -->
+<body>
+<div id="Top"></div>
+<!-- Header Text -->
+
+
+
+<header>
+<nav class="navbar navbar-light navbar-full menu resume">
+  <div class="container headermargin">
+    <a class="navbar-brand" href="index.html">
+        <h1 id='logo'>Nicholas Iverson</h1>
+        <p>User Experience Designer | Storyteller</p>
+        </a>
+    </nav>
+  </div>
+</header>
+
+<!-- Navbar -->
+<nav class="navbar-light navbar-fixed-top bg-faded">
+  <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <div class="container aligncontainer">
+        <span style="display:inline-block;">
+        <li class="nav-item"><a data-scroll data-options='{ "easing": "easeInOutCubic" }' class="nav-link" href="index.html"><p class="home">Portfolio < </p></a></li>
+        <li class="nav-item"><a data-scroll data-options='{ "easing": "easeInOutCubic" }' class="nav-link" href="#Overview">Overview</a></li>
+        <li class="nav-item"><a data-scroll data-options='{ "easing": "easeInOutCubic" }' class="nav-link" href="#Projects">Additional Work</a></li>
+        </span>
+        </div>
+      </ul>
+    </nav>
+  </div>
+<!-- Navbar End -->
+
+<div id="Overview"></div>
+  <!-- Project Overview -->
+  <div class="container hidden">
+        <section class="page col-sm-12">
+        <!-- Project Title -->
+          <h1 class="projecttitle">Mekong Customs (Coming Soon!)</h1>
+          <h3> CONCEPT | Custom decals, engine rebuilds, and travel consulting </h3>
+          <div class="row">
+
+          <!-- Feature Image -->
+            <section class="col-sm-6">
+              <div class="none">
+              <img class="img-fluid" src="cover_images/Mekong_Customs.jpg" alt="Mekong Customs">
+              </div>
+            </section>
+            <section class="col-m-6">
+            <h2> Overview </h2>
+                <p class="overview"> 
+                Mekong Customs is a motorcycle shop offering design, maintenance and travel services in Ho Chi Minh City. 
+                  <br>
+                  <br>
+                It is designed so that travelers can easily seek on the ground expert advice before preparing for a motorcycle trip across the country of Vietnam.
+                </p>
+            </section>
+          </div>
+
+<!-- Additional Projects -->
+<div id="Projects"></div>
+  <div class="container hidden">
+        <section class="page col-sm-12">
+        <!-- Section Title -->
+          <h2> Additional Work</h2>
+
+           <!-- Card 1 -->
+            <section class="col-sm-4">
+             <a href="capitalone.html">
+              <div class="card card-1">
+                <img class="img-fluid card-img-top" src="cover_images/Cap1_Mockup.jpg" alt="Capital One">
+                </a>
+              </div>
+                <h3 class="card-title">Capital One Managed Portfolio</h3>
+                  <p class="card-text">Bringing a human touch to the mobile experience</p>
+            </section>
+
+            <!-- Card 2 -->
+            <section class="col-sm-4">
+             <a href="gardenpro.html">
+              <div class="card card-1">
+                <img class="img-fluid card-img-top" src="cover_images/Garden_Pro.png" alt="Garden Pro">
+                </a>
+              </div>
+                <h3 class="card-title">Garden Pro</h3>
+                  <p class="card-text">Imparting knowledge of Master Gardeners</p>
+            </section>
+
+            <!-- Card 3 -->
+            <section class="col-sm-4">
+              <div class="card card-1">
+               <a href="williams-sonoma.html">
+                <img class="img-fluid card-img-top" src="cover_images/WS_Mockup.jpg" alt="Williams-Sonoma">
+              </div>
+              </a>
+               <h3 class="card-title">Williams Sonoma Cooking School</h3>
+                  <p class="card-text">A website for bringing good taste home</p>
+            </section>
+
+          </div>
+        </section>
+      </div>
+    </div>
+
+<hr></hr>
+
+<div style="text-align:center;">
+<span style="display:inline-block;">
+<a href="#Top" class="nav nav-link" data-scroll data-options='{ "easing": "easeInOutCubic" }'>Return to Top</a>
+</span>
+</div>
+
+<!-- Footer -->
+<footer>
+<!--Contact Info-->
+ <div id="Contact"></div>
+  <i class="fa fa-envelope" aria-hidden="true"></i>
+   <span>CONTACT</span>
+    <br>
+   <span><a class="nav-item" href="mailto:njiverson1@gmail.com">njiverson1@gmail.com</a> | <a class="nav-item" href="https://www.linkedin.com/in/nicholasiversonhcmc">LinkedIn</a> </span>
+    <br>
+  <span> 425.374.9040 </span>
+</footer>
+<!-- Content end -->
+
+<!-- CSS Animate js -->
+<script src="CSS_Animation_Effects/jquery.min.js"></script> 
+<script src="CSS_Animation_Effects/viewportchecker.js"></script> 
+<script type="text/javascript">
+jQuery(document).ready(function() {
+  jQuery('.container').addClass("hidden").viewportChecker({
+      classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
+      offset: 150    
+     });   
+});            
+</script>
+
+<!-- Smooth Scroll JS -->
+<script src="js/smooth-scroll.js"></script>
+<script>
+smoothScroll.init();
+</script>
+
+	</body>
+</html>

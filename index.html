@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Nick Iverson | User Experience Designer</title>
+
+<!-- FontAwesome Glyphs -->
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+<!-- CSS Animations (FadeIn) -->
+<link rel="stylesheet" type="text/css" href="CSS_Animation_Effects/animate.css">
+
+<!-- Bootstrap 4 Alpha CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+
+<!-- Page Style CSS -->
+<link rel="stylesheet" type="text/css" href="CSS_Animation_Effects/style.css">
+
+<!-- Hide/Show Nav on Scroll -->
+<script src="js/responsive-nav.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 550,
+                ul = document.querySelector("ul");
+            if (distanceY > shrinkOn) {
+                classie.add(ul,"alt");
+            } else {
+                if (classie.has(ul,"alt")) {
+                    classie.remove(ul,"alt");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+
+</head>
+
+<!-- Begin Body -->
+<body>
+
+<!-- Header Text -->
+<header>
+<nav class="navbar navbar-light navbar-full menu">
+  <div class="container headermargin">
+    <a class="navbar-brand" href="#NicholasIverson">
+        <h1 id='logo'>Nicholas Iverson</h1>
+        <p>User Experience Designer | Storyteller</p>
+        </a>
+    </nav>
+  </div>
+</header>
+
+<!-- Full width banner image -->
+
+<header id="feature" class="image-bg-fixed-height">
+</header>
+
+
+<!-- Navbar -->
+<nav class="navbar-light navbar-fixed-top bg-faded">
+  <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <div class="container aligncontainer">
+        <span style="display:inline-block;">
+        <li class="nav-item"><a data-scroll data-options='{ "easing": "easeInOutCubic" }' class="nav-link" href="index.html"><p class="home">Portfolio < </p></a></li>
+        <li class="nav-item"><a data-scroll data-options='{ "easing": "easeInOutCubic" }' class="nav-link" href="#Work">Work</a></li>
+        <li class="nav-item"><a data-scroll data-options='{ "easing": "easeInOutCubic" }' class="nav-link" href="#AboutMe">About</a></li>
+        <li class="nav-item"><a data-scroll data-options='{ "easing": "easeInOutCubic" }' class="nav-link" href="#Resume">Resume</a></li>
+        <li class="nav-item"><a data-scroll data-options='{ "easing": "easeInOutCubic" }' class="nav-link" href="#Contact">Contact</a></li>
+        </span>
+        </div>
+      </ul>
+    </nav>
+  </div>
+<!-- Navbar End -->
+
+<div id="Work"></div>
+  <!-- Portfolio Content Row 1 -->
+   <div class="container hidden">
+      <div>
+        <section class="page col-sm-12">
+          <h2>UX Design</h2>
+          <div class="row">
+
+
+          <!-- Card 1 -->
+            <section class="col-sm-4">
+             <a href="capitalone.html">
+              <div class="card card-1">
+                <img class="img-fluid card-img-top" src="cover_images/Cap1_Mockup.jpg" alt="Capital One">
+                </a>
+              </div>
+                <h3 class="card-title">Capital One Managed Portfolio</h3>
+                  <p class="card-text">Bringing a human touch to the mobile experience</p>
+            </section>
+
+            <!-- Card 2 -->
+            <section class="col-sm-4">
+             <a href="gardenpro.html">
+              <div class="card card-1">
+                <img class="img-fluid card-img-top" src="cover_images/Garden_Pro.png" alt="Garden Pro">
+                </a>
+              </div>
+                <h3 class="card-title">Garden Pro</h3>
+                  <p class="card-text">Imparting knowledge of Master Gardeners</p>
+            </section>
+
+            <!-- Card 3 -->
+            <section class="col-sm-4">
+              <div class="card card-1">
+               <a href="williams-sonoma.html">
+                <img class="img-fluid card-img-top" src="cover_images/WS_Mockup.jpg" alt="Williams-Sonoma">
+              </div>
+              </a>
+               <h3 class="card-title">Williams Sonoma Cooking School</h3>
+                  <p class="card-text">A website for bringing good taste home</p>
+            </section>
+
+          </div>
+        </section>
+      </div>
+  </div>
+
+ <!-- Portfolio Content Row 2 -->
+ <div class="container hidden">
+      <div>
+        <section class="page col-sm-12">
+          <h2>Writing and Photography</h2>
+          <div class="row">
+
+            <!-- Card 1 -->
+            <section class="col-sm-4">
+              <div class="card card-1">
+              <a href="vietnams-secret-coast.html">
+                <img class="img-fluid card-img-top" src="cover_images/Binh_Dinh330px.jpg" alt="Binh Dinh Photo">
+              </div>
+              </a>
+              <h3 class="card-title">Vietnam's Secrect Coast</h3>
+                  <p class="card-text">Making the trip by motorbike: Hoi An to Nha Trang</p>
+            </section>
+            
+            <!-- Card 2 -->
+            <section class="col-sm-4">
+              <div class="card card-1">
+              <a href="journey-into-india.html">
+                <img class="img-fluid card-img-top" src="cover_images/Thar_Desert330px.jpg" alt="Thar Desert Photo">
+              </div>
+              </a>
+               <h3 class="card-title">Journey Into India</h3>
+                  <p class="card-text">From Delhi to the Taj Mahal and the Colored Cities of Rajasthan</p>
+            </section>
+
+            <!-- Card 3 -->
+            <section class="col-sm-4">
+              <div class="card card-1">
+              <a href="on-the-road.html">
+                <img class="img-fluid card-img-top" src="cover_images/Bryce_Canyon330px.jpg" alt="Bryce Canyon Photo">
+              </div>
+              </a>
+              <h3 class="card-title">On the Road in the American West</h3>
+                  <p class="card-text">5,000 Miles of Scenic Byways Seeing Some of America's Most Beloved Natural Wonders</p>
+            </section>
+          </div>
+        </section>
+      </div>
+    </div>
+
+ <!-- Portfolio Content Row 3 -->
+ <div class="container hidden">
+      <div>
+        <section class="page col-sm-12">
+          <h2>Design and Sculpture</h2>
+          <div class="row">
+
+            <!-- Card 1 -->
+            <section class="col-sm-4">
+              <div class="card card-1">
+              <a href="charity-bikes.html">
+                <img class="img-fluid card-img-top" src="cover_images/Charity_Bikes.jpg" alt="Charity Bikes">
+              </div>
+              </a>
+              <h3 class="card-title">Charity Bikes</h3>
+                  <p class="card-text">Charitable work benfiting orphan children in Ho Chi Minh City</p>
+            </section>
+            
+            <!-- Card 2 -->
+            <section class="col-sm-4">
+              <div class="card card-1">
+              <a href="herbs-on-glass.html">
+                <img class="img-fluid card-img-top" src="cover_images/Herb_Glass.jpg" alt="Herbs on Glass">
+              </div>
+              </a>
+                   <h3 class="card-title">Herbs on Glass</h3>
+                  <p class="card-text">Glass Sculpture</p>
+            </section>
+            
+            <!-- Card 3 -->
+            <section class="col-sm-4">
+              <div class="card card-1">
+              <a href="wine-bottles.html">
+                <img class="img-fluid card-img-top" src="cover_images/Wine_Bottles.jpg" alt="Wine Bottles">
+              </div>
+              </a>              
+                <h3 class="card-title">Wine Bottles</h3>
+                  <p class="card-text">Glass Sculpture</p>
+            </section>
+
+          </div>
+        </section>
+      </div>
+    </div>
+
+  <!-- Portfolio Content Row 4 -->
+  <div class="container hidden">
+      <div>
+        <section class="page col-sm-12">
+          <div class="row">
+            
+            <!-- Card 1 -->
+            <section class="col-sm-4">
+              <div class="card card-1">
+              <a href="bronze-castings.html">
+                <img class="img-fluid card-img-top" src="cover_images/Bronze_Casting.jpg" alt="Bronze Castings">
+              </div>
+              </a>
+                <h3 class="card-title">Bronze Casting</h3>
+                  <p class="card-text">Metal Sculpture</p>
+            </section>
+
+            <!-- Card 2 -->
+            <section class="col-sm-4">
+              <div class="card card-1">
+              <a href="forged-steel-ribbon.html">
+                <img class="img-fluid card-img-top" src="cover_images/Forge_Sculpture.jpg" alt="Forged Steel Ribbon">
+              </div>
+              </a>
+                <h3 class="card-title">Forged Steel Ribbon</h3>
+                  <p class="card-text">Metal Scupture</p>
+            </section>
+
+            <!-- Card 3 -->
+            <section class="col-sm-4">
+              <div class="card card-1">
+              <a href="wood-and-metal-lamp.html">
+                <img class="img-fluid card-img-top" src="cover_images/Lamp_Feature.jpg" alt="Wood and Metal Lamp">
+              </div>
+              </a>
+                <h3 class="card-title">Wood and Metal Lamp</h3>
+                  <p class="card-text">Furniture Design</p>
+            </section>
+
+          </div>
+        </section>
+      </div>
+    </div>
+
+<!-- About Me -->
+<div id="AboutMe"></div>
+<br>
+<div class="container-fluid" style="background-color:#f7f7f7;">
+  <section class="container hidden">
+      <h2>About Me</h2>
+              <img class="img-fluid card" style="float:left; max-width:200px; margin:8px 20px 20px 0px;" src="cover_images/nick.jpg" alt="Nick">
+                  <div class="aboutme">
+                        <p>
+                        Hello!</p>
+
+                        <p> I'm a UX designer dedicated to understanding the user’s story to create beautiful experiences. </p>
+  
+                        <p> 
+                         I explore the user’s story by finding what they are looking for to help them meet their needs and achieve their goals. I work to make the user experience memorable and make it matter. </p>
+                            
+                        <p> 
+                        My strengths are in user research, storytelling, and human centered design. 
+                        I also have a background in teaching, spending the last few years living and teaching in Vietnam, taking every chance I had to get on my motorcycle and ride across the entire country, to photograph and write about amazing places I come across and the extraordinary people I meet. </p>
+ 
+                        <p> 
+                        I’ve discovered that powerful places and powerful experiences with someone else can change your state of mind. Even if you cannot speak their language, you can still laugh with them and share in how they live, what they see, how they feel, eat the food they eat. </p>
+
+                        <p>
+                        Stories have always evoked curiosity and wonder for me. I've realized that storytelling is at the core of what it means for me to be human. We can learn how to feel what others feel and enlighten each other. With it I hope to inspire creation, and to bring compassion and happiness into people’s lives. That’s beautiful. That's magic. </p>
+                        </div>
+
+                        <p style="text-align:center;">
+                        Enjoy life. Care about what you do.</p>
+                </div>
+        </section>
+  </div>
+
+<!-- Skills and Tools -->
+<div id="Resume"></div>
+<br>
+<div class="container-fluid">
+  <section class="container hidden">
+    <h2>Skills</h2>
+      <div class="aboutme">
+         <p>Content Writing, User Research, Human-Centered Design, Usability Testing, Prototyping, Wireframing, Storyboarding, Heuristics, Personas, Scenarios, User Flow, Card Sorting.
+        </p>
+        <p>
+        Sprint Planning, Team Management, Public Speaking, Curriculum Development.
+        </p>
+      </div>
+
+    <h2 style="margin-top: 50px">Tools</h2>
+      <div class="aboutme">
+        <p>
+        Adobe Photoshop, Illustrator, InDesign, Lightroom, Sketch, InVision, Omnigraffle, Axure, Sublime, HTML, CSS, Bootstrap. 
+        </p>
+      </section>
+      </div>
+
+<!-- Resume -->
+<div class="container-fluid resume">
+  <section class="container hidden">
+    <h2>Resume</h2>
+      <p>
+        <a class="nav-link col-sm-6 btn-resume  btn-primary" href="Documents/NicholasIverson_Resume.pdf">.pdf</a>
+        <a class="nav-link col-sm-6 btn-resume  btn-info" href="Documents/NicholasIverson_Resume.txt">.txt</a>
+      </p>
+  </section>
+</div>
+
+<!-- Footer -->
+<footer>
+<!--Contact Info-->
+ <div id="Contact"></div>
+  <i class="fa fa-envelope" aria-hidden="true"></i>
+   <span>CONTACT</span>
+    <br>
+   <span><a class="nav-item" href="mailto:njiverson1@gmail.com">njiverson1@gmail.com</a> | <a class="nav-item" href="https://www.linkedin.com/in/nicholasiversonhcmc">LinkedIn</a> </span>
+    <br>
+  <span> 425.374.9040 </span>
+</footer>
+<!-- Content end -->
+
+<!-- CSS Animate js -->
+<script src="CSS_Animation_Effects/jquery.min.js"></script> 
+<script src="CSS_Animation_Effects/viewportchecker.js"></script> 
+<script type="text/javascript">
+jQuery(document).ready(function() {
+  jQuery('.container').addClass("hidden").viewportChecker({
+      classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
+      offset: 100    
+     });   
+});            
+</script>
+
+<!-- Smooth Scroll JS -->
+<script src="js/smooth-scroll.js"></script>
+<script>
+smoothScroll.init();
+</script>
+
+	</body>
+</html>
