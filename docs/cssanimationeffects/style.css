@@ -176,7 +176,6 @@ h1 {
     margin:0px;
     line-height: 1.2;
     margin-bottom: 20px;
-    color: #323232;
 }
 
 h1.projecttitle { 
@@ -343,7 +342,7 @@ header p {
      }
 
      nav {
-
+       min-width: 425px
      }
    }
 
@@ -359,7 +358,7 @@ header p {
      }
 
      nav {
-
+       min-width: 425px
      }
 
     .container {
