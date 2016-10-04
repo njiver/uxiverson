@@ -1,4 +1,4 @@
-Nicholas Iverson
+Nick Iverson
 User Experience Designer | Storyteller
 
 linkedin.com/in/nicholasiversonhcmc 
@@ -10,37 +10,37 @@ Seattle, WA
 
 EXPERIENCE: 
 
+Visual Designer (Freelance) | August 2016 - Current.
+Granvas, Miami, USA.
+- Designed material and glyph style web icons for the Granvas site.
+- Created visual metaphors that marry artistic styles to functional icons.
 
 The Curated Travel, Seattle, USA. (Freelance)
 Travel Writer and UX Contributor | March 2016  - Current.
-• Wrote travel content published online for The Curated Travel. 
-• Contributed high quality original photographs of travel destinations.
-• Recommended user experience improvements across the site. 
+- Wrote travel content published online for The Curated Travel. 
+- Contributed high quality original photographs of travel destinations.
+- Recommended user experience improvements across the site. 
 
 
 Capital One Investments, Seattle, USA.
 User Experience Designer | June 2016  - July 2016.
-• User research, planning, design, and testing for an IOS investing app for Capital One’s Managed Portfolios product.
-• Presented the prototype, design process, and deliverables to stakeholders at the Capital One offices in Seattle. 
-
-
-General Assembly, Seattle, USA.
-User Experience Immersive Student | May 2016 - July 2016.
-• Planned sprints for mobile and web app design projects.
-• Designed a mobile app with a team from research to wireframes.
-• Coordinated user interviews, interview scripts, and usability testing. 
+- User research, planning, design, and testing for an IOS investing app for Capital One’s Managed Portfolios product.
+- Presented the prototype, design process, and deliverables to stakeholders at the Capital One offices in Seattle. 
 
 
 Vietnam USA Society, Ho Chi Minh City, Vietnam. 
 English Teacher | December 2012 - July 2015.
-• Planned lessons to inspire learning for students of all ages and levels. 
-• Facilitated classrooms for learners of English as a second language. 
-• Designed innovative activities to enhance learning engagement. 
+- Planned lessons to inspire learning for students of all ages and levels. 
+- Facilitated classrooms for learners of English as a second language. 
+- Designed innovative activities to enhance learning engagement. 
  
 
 EDUCATION: 
 
-University of Washington, Seattle, USA. | 2007 - 2012
+General Assembly, Seattle, USA. | May 2016 - July 2016.
+User Experience Design Immersive Student.
+
+University of Washington, Seattle, USA. | 2007 - 2012.
 BA Community, Environment, and Planning (CEP); Interdisciplinary Visual Arts (IVA); Minors in Architecture and Landscape Architecture, University of Washington, Seattle.
 
 STRENGTHS:
@@ -69,16 +69,12 @@ InVision
 Omnigraffle
 Sublime
 
+HTML
+CSS
+Bootstrap
+
 LANGUAGES:
 
 Fluent in English
 Intermediate Vietnamese 
 (Resident of Vietnam 2012 - 2015).
-
-CERTIFICATIONS:
-144 hour TESOL,
-LanguageCorps USA,
-License LC111209,
-December 2012.
-
-
