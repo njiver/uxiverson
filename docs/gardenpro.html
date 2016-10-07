@@ -24,7 +24,7 @@
     function init() {
         window.addEventListener('scroll', function(e){
             var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                shrinkOn = 550,
+                shrinkOn = 140,
                 ul = document.querySelector("ul");
             if (distanceY > shrinkOn) {
                 classie.add(ul,"alt");
@@ -42,17 +42,15 @@
 
 <!-- Begin Body -->
 <body>
-<div id="Top"></div>
+
 <!-- Header Text -->
-
-
-
-<header>
+<header id="Top">
 <nav class="navbar navbar-light navbar-full menu resume">
   <div class="container headermargin">
     <a class="navbar-brand" href="index.html">
         <h1 id='logo'>Nicholas Iverson</h1>
         <p>User Experience Designer | Storyteller</p>
+        <div id="Overview"></div>
         </a>
     </nav>
   </div>
@@ -65,11 +63,11 @@
         <div class="container aligncontainer">
         <span style="display:inline-block;">
         <li class="nav-item"><a data-scroll data-options='{ "easing": "easeInOutCubic" }' class="nav-link" href="index.html"><p class="home">Portfolio < </p></a></li>
-        <li class="nav-item"><a data-scroll data-options='{ "easing": "easeInOutCubic" }' class="nav-link" href="#Top">Overview</a></li>
+        <li class="nav-item"><a data-scroll data-options='{ "easing": "easeInOutCubic" }' class="nav-link" href="#Overview">Overview</a></li>
         <li class="nav-item"><a data-scroll data-options='{ "easing": "easeInOutCubic" }' class="nav-link" href="#Research">Research</a></li>
         <li class="nav-item"><a data-scroll data-options='{ "easing": "easeInOutCubic" }' class="nav-link" href="#Design">Design</a></li>
         <li class="nav-item"><a data-scroll data-options='{ "easing": "easeInOutCubic" }' class="nav-link" href="#Insights">Insights</a></li>
-        <li class="nav-item"><a data-scroll data-options='{ "easing": "easeInOutCubic" }' class="nav-link" href="#Projects">Additional Work</a></li>
+        <li class="nav-item"><a data-scroll data-options='{ "easing": "easeInOutCubic" }' class="nav-link" href="#AdditionalWork">Additional Work</a></li>
         </span>
         </div>
       </ul>
@@ -315,7 +313,7 @@
              </div>
 
 <!-- Additional Projects -->
-<div id="Projects"></div>
+<div id="AdditionalWork"></div>
   <div class="container hidden">
         <section class="page col-sm-12">
         <!-- Section Title -->
