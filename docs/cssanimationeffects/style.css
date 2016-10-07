@@ -332,18 +332,29 @@ header p {
 -------------------------------------------------------- */
 /* Extra small devices (portrait phones, less than 544px) */
    @media (max-width: 543px) { 
-   .image-bg-fixed-height {
-       height: 100px;
-     }
 
-     header#feature {
-       display: none;
-       visibility: hidden;
-     }
+    .container {
+    margin-bottom: 0px;
+    max-width: 85vw;
+    }
 
-     nav {
-       min-width: 425px
-     }
+    header h1 {
+    font-size: 8vw;
+    margin: 0px 0px;
+    }
+
+    header p { 
+    color: #CC5077; /* Smooth transform <p> in header to red color*/
+    font-size: 4.4vw;
+    }
+
+    header#feature {
+    display: none;
+    }
+
+    header#Portfolio {
+    background-color:#f7f7f7;
+    }
    }
 
 /* // Small devices (landscape phones, 544px and up) */
@@ -354,17 +365,24 @@ header p {
 
      header#feature {
        display: none;
-       visibility: hidden;
+     }
+
+     header#Portfolio {
+     background-color:#f7f7f7;
+     }
+
+     h2.index {
+     margin-top: 0px
      }
 
      nav {
-       min-width: 425px
+     min-width: 425px
      }
 
-    .container {
-       margin: 50px 0px 18px 18px;
+     .container {
+     margin: 50px 0px 18px 18px;
      }
-     }
+    }
 
 /* // Medium devices (tablets, 768px and up) */
    @media (min-width: 768px) and (max-width: 991px) { 
