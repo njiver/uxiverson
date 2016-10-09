@@ -17,7 +17,6 @@ header {
     max-width: 760px;
     margin-top: 50px;
     margin-bottom: 25px;
-    min-width: 425px
 }
 
 .headermargin {
@@ -34,10 +33,15 @@ p {
   line-height: 2;
 }
 
+.profile {
+  float:left;
+  max-width: 200px; 
+  margin:8px 20px 20px 0px;
+}
+
 .aboutme {
     align-content: center;
     text-align:left;
-    max-width: 760px
   }
 
 .container-fluid {
@@ -67,7 +71,6 @@ p {
     -moz-transition: font-size .25s linear; 
     -webkit-transition: font-size .25s linear; 
 }
-
 
 blockquote {
     font-size: 2em;
@@ -339,13 +342,13 @@ header p {
     }
 
     header h1 {
-    font-size: 8vw;
+    font-size: 7.8vw;
     margin: 0px 0px;
     }
 
     header p { 
     color: #CC5077; /* Smooth transform <p> in header to red color*/
-    font-size: 4.4vw;
+    font-size: 4.2vw;
     }
 
     header#feature {
@@ -356,7 +359,6 @@ header p {
     background-color:#f7f7f7;
     }
    }
-
 /* // Small devices (landscape phones, 544px and up) */
    @media (min-width: 544px) and (max-width: 767px) { 
     .image-bg-fixed-height {
