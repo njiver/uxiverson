@@ -338,7 +338,7 @@ header p {
 
     .container {
     margin-bottom: 0px;
-    max-width: 85vw;
+    max-width: 90vw;
     }
 
     header h1 {
@@ -357,6 +357,11 @@ header p {
 
     header#Portfolio {
     background-color:#f7f7f7;
+    }
+    .profile {
+    align-content: center;
+    max-width: 300px; 
+    margin:8px 20px 20px 0px;
     }
    }
 /* // Small devices (landscape phones, 544px and up) */
