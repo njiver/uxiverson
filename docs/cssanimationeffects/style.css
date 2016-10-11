@@ -61,6 +61,17 @@ p {
     background-color:#f7f7f7;
 }
 
+.active { 
+    color: #3295A8; /* Smooth transform <p> in header to blue color*/
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 5px; 
+    transition: font-size .25s linear; 
+    -o-transition: font-size .25s linear; 
+    -moz-transition: font-size .25s linear; 
+    -webkit-transition: font-size .25s linear; 
+}
+
 .home { 
     color: #3295A8; /* Smooth transform <p> in header to blue color*/
     font-size: 1em;
@@ -70,6 +81,21 @@ p {
     -o-transition: font-size .25s linear; 
     -moz-transition: font-size .25s linear; 
     -webkit-transition: font-size .25s linear; 
+}
+
+
+.dropdown-menu {
+    background-color:#f7f7f7;
+    width: 70vw;
+    border-style: none;
+}
+
+.dropdown-menu > a:hover {
+   color: #CC5077;
+}
+
+.dropdown-item {
+  margin: 10px;
 }
 
 blockquote {
@@ -363,6 +389,15 @@ header p {
     max-width: 300px; 
     margin:8px 20px 20px 0px;
     }
+
+    .hidemobile {
+    display:none;
+    }
+
+    .showmobile {
+    display:flex;
+    }
+
    }
 /* // Small devices (landscape phones, 544px and up) */
    @media (min-width: 544px) and (max-width: 767px) { 
@@ -389,12 +424,19 @@ header p {
      .container {
      margin: 50px 0px 18px 18px;
      }
+
+    .showmobile {
+    display:none;
+     }
     }
 
 /* // Medium devices (tablets, 768px and up) */
    @media (min-width: 768px) and (max-width: 991px) { 
     .image-bg-fixed-height {
      height: 225px;
+     }
+     .showmobile {
+    display:none;
      }
     }
 
@@ -403,12 +445,28 @@ header p {
     .image-bg-fixed-height {
      height: 300px;
      }
+     .showmobile {
+    display:none;
+     }
     }
 
 /* // Extra large devices (large desktops, 1200px and up) */
   @media (min-width: 1200px) and (max-width: 1600px) { 
     .image-bg-fixed-height {
      height: 350px;
+     }
+     .showmobile {
+    display:none;
+     }
+    }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1601px) and (max-width: 1920px) { 
+    .image-bg-fixed-height {
+     height: 400px;
+     }
+     .showmobile {
+    display:none;
      }
     }
 
