@@ -19,6 +19,10 @@
 <!-- Page Style CSS -->
 <link rel="stylesheet" type="text/css" href="cssanimationeffects/style.css">
 
+<!-- Slick Slider CSS -->
+<link rel="stylesheet" type="text/css" href="js/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css">
+
 <!-- Hide/Show Nav on Scroll -->
 <script src="js/responsivenav.js"></script>
 <script>
@@ -26,7 +30,7 @@
         window.addEventListener('scroll', function(e){
             var distanceY = window.pageYOffset || document.documentElement.scrollTop,
                 shrinkOn = 560,
-                ul = document.querySelector("ul");
+                ul = document.querySelector("ul.nav");
             if (distanceY > shrinkOn) {
                 classie.add(ul,"alt");
             } else {
@@ -119,11 +123,12 @@
 <!-- Navbar End -->
 
 <div id="Work"></div>
-  <!-- Portfolio Content Row 1 -->
-   <div class="container hidden">
+<!-- Mobile Content -->
+<!-- Mobile Content Row 1 -->
+   <div class="container hidden showmobile">
         <section class="page col-sm-12">
-          <h2 class="index">UX Design</h2>
-          <div class="row">
+          <h2 class="index">UX/UI Design</h2>
+          <div class="row ">
 
 
           <!-- Card 1 -->
@@ -163,8 +168,8 @@
         </section>
       </div>
 
- <!-- Portfolio Content Row 2 -->
- <div class="container hidden">
+ <!-- Mobile Content Row 2 -->
+ <div class="container hidden showmobile">
         <section class="page col-sm-12">
           <h2 class="index">Writing and Photography</h2>
           <div class="row">
@@ -206,8 +211,8 @@
         </section>
       </div>
 
- <!-- Portfolio Content Row 3 -->
- <div class="container hidden">
+ <!-- Mobile Content Row 3 -->
+ <div class="container hidden showmobile">
         <section class="page col-sm-12">
           <h2 class="index">Design and Sculpture</h2>
           <div class="row">
@@ -249,8 +254,8 @@
         </section>
       </div>
 
-  <!-- Portfolio Content Row 4 -->
-  <div class="container hidden">
+  <!-- Mobile Content Row 4 -->
+  <div class="container hidden showmobile">
         <section class="page col-sm-12">
           <div class="row">
             
@@ -290,6 +295,209 @@
           </div>
         </section>
       </div>
+
+<!-- Desktop Content -->
+<!-- Desktop Content Row 1 -->
+<!-- Slider 1 -->
+<div class="container hidden hidemobile">
+ <section class="page col-sm-12">
+  <h2>UX/UI Design</h2>
+  <div class="row">
+  <section class="regular slider">
+    <div class="col-sm-12">
+      <!-- Card 1 -->
+
+             <a href="capitalone.html">
+              <div class="card card-1">
+                <img class="img-fluid card-img-top" src="coverimages/cap1mockup.jpg" alt="Capital One">
+                </a>
+              </div>
+                <h3 class="card-title">Capital One Managed Portfolio</h3>
+                  <p class="card-text">Bringing a human touch to the mobile experience</p>
+
+    </div>
+    <div class="col-sm-12">
+     <!-- Card 2 -->
+
+             <a href="gardenpro.html">
+              <div class="card card-1">
+                <img class="img-fluid card-img-top" src="coverimages/gardenpro.jpg" alt="Garden Pro">
+              </div>
+              </a>
+                <h3 class="card-title">Garden Pro</h3>
+                  <p class="card-text">Imparting knowledge of Master Gardeners</p>
+
+    </div>
+    <div class="col-sm-12">
+      <!-- Card 3 -->
+
+              <div class="card card-1">
+               <a href="williamssonoma.html">
+                <img class="img-fluid card-img-top" src="coverimages/wsmockup.jpg" alt="Williams-Sonoma">
+              </div>
+              </a>
+               <h3 class="card-title">Williams Sonoma Cooking School</h3>
+                  <p class="card-text">A website for bringing good taste home</p>
+
+    </div>
+    <div class="col-sm-12">
+      <!-- Card 1 -->
+              <div class="card card-1">
+               <a href="kelp.html">
+                <img class="img-fluid card-img-top" src="coverimages/kelpmockup.jpg" alt="Kelp">
+              </div>
+               </a>
+                <h3 class="card-title">Kelp</h3>
+                  <p class="card-text">An App for organizing your favorite places</p>
+    </div>
+    <div class="col-sm-12">
+      <!-- Card 2 -->
+              <div class="card card-1">
+              <a href="mekongcustoms.html">
+                <img class="img-fluid card-img-top" src="coverimages/mekongcustoms.jpg" alt="Mekong Customs">
+              </div>
+               </a>
+                <h3 class="card-title">Mekong Customs</h3>
+                  <p class="card-text">Custom Decaling and Motorbike Rebuilds</p>
+  </section>
+  </section>
+</div>
+</div>
+
+<!-- Desktop Content Row 2 -->
+<!-- Slider 2 -->
+  <div class="container hidden hidemobile section-margin">
+    <section class="page col-sm-12">
+      <h2>Writing and Photography</h2>
+        <div class="row">
+          <section class="regular slider">
+            <div class="col-sm-12">
+      <!-- Card 1 -->
+
+              <div class="card card-1">
+                <a href="vietnamssecretcoast.html">
+                  <img class="img-fluid card-img-top" src="coverimages/binhdinh330px.jpg" alt="Binh Dinh Photo">
+              </div>
+                </a>
+              <h3 class="card-title">Vietnam's Secrect Coast</h3>
+                  <p class="card-text">Making the trip by motorbike: Hoi An to Nha Trang</p>
+
+    </div>
+    <div class="col-sm-12">
+     <!-- Card 2 -->
+
+             <div class="card card-1">
+               <a href="journeyintoindia.html">
+                 <img class="img-fluid card-img-top" src="coverimages/thardesert330px.jpg" alt="Thar Desert Photo">
+              </div>
+                </a>
+              <h3 class="card-title">Journey Into India</h3>
+                  <p class="card-text">From Delhi to the Taj Mahal and the Colored Cities of Rajasthan</p>
+
+    </div>
+    <div class="col-sm-12">
+      <!-- Card 3 -->
+
+              <div class="card card-1">
+                <a href="ontheroad.html">
+                <img class="img-fluid card-img-top" src="coverimages/brycecanyon.jpg" alt="Bryce Canyon Photo">
+              </div>
+                </a>
+               <h3 class="card-title">On the Road in the American West</h3>
+                  <p class="card-text">5,000 Miles of Scenic Byways Seeing Some of America's Most Beloved Natural Wonders</p>
+
+    </div>
+    <div class="col-sm-12">
+      <!-- Card 1 -->
+              <div class="card card-1">
+                <a href="monumentalart.html">
+                  <img class="img-fluid card-img-top" src="coverimages/monumentalart.jpg" alt="Monumental Art">
+              </div>
+                </a>
+               <h3 class="card-title">Monumental Art</h3>
+                  <p class="card-text">Reflections on the Stupas at Sanchi and the Buddhist Caves at Ajanta</p>
+  </section>
+  </section>
+</div>
+</div>
+
+ <!-- Desktop Content Row 3 -->
+ <!-- Slider 2 -->
+  <div class="container hidden hidemobile section-margin">
+    <section class="page col-sm-12">
+      <h2>Design and Sculpture</h2>
+        <div class="row">
+          <section class="regular slider">
+            <div class="col-sm-12">
+      <!-- Card 1 -->
+
+              <div class="card card-1">
+                <a href="charitybikes.html">
+                  <img class="img-fluid card-img-top" src="coverimages/charitybikes.jpg" alt="Charity Bikes">
+              </div>
+               </a>
+              <h3 class="card-title">Charity Bikes</h3>
+                  <p class="card-text">Charitable work benfiting orphan children in Ho Chi Minh City</p>
+
+    </div>
+    <div class="col-sm-12">
+     <!-- Card 2 -->
+
+             <div class="card card-1">
+               <a href="herbsonglass.html">
+                <img class="img-fluid card-img-top" src="coverimages/herbglass.jpg" alt="Herbs on Glass">
+             </div>
+               </a>
+              <h3 class="card-title">Herbs on Glass</h3>
+                  <p class="card-text">Glass Sculpture</p>
+
+    </div>
+    <div class="col-sm-12">
+      <!-- Card 3 -->
+              <div class="card card-1">
+                <a href="winebottles.html">
+                <img class="img-fluid card-img-top" src="coverimages/winebottles.jpg" alt="Wine Bottles">
+              </div>
+                </a>              
+              <h3 class="card-title">Wine Bottles</h3>
+                  <p class="card-text">Glass Sculpture</p>
+
+    </div>
+    <div class="col-sm-12">
+      <!-- Card 4 -->
+              <div class="card card-1">
+                <a href="bronzecastings.html">
+                  <img class="img-fluid card-img-top" src="coverimages/bronzecasting.jpg" alt="Bronze Castings">
+              </div>
+                </a>
+              <h3 class="card-title">Bronze Casting</h3>
+                  <p class="card-text">Metal Sculpture</p>
+
+    </div>
+    <div class="col-sm-12">
+      <!-- Card 5 -->
+              <div class="card card-1">
+                <a href="forgedsteelribbon.html">
+                  <img class="img-fluid card-img-top" src="coverimages/forgesculpture.jpg" alt="Forged Steel Ribbon">
+              </div>
+                </a>
+              <h3 class="card-title">Forged Steel Ribbon</h3>
+                  <p class="card-text">Metal Scupture</p>
+
+    </div>
+    <div class="col-sm-12">
+      <!-- Card 6 -->
+               <div class="card card-1">
+                 <a href="woodandmetallamp.html">
+                  <img class="img-fluid card-img-top" src="coverimages/lampfeature.jpg" alt="Wood and Metal Lamp">
+              </div>
+                </a>
+               <h3 class="card-title">Wood and Metal Lamp</h3>
+                  <p class="card-text">Furniture Design</p>
+  </section>
+  </section>
+</div>
+</div>
 
 <!-- About Me -->
 <div id="AboutMe"></div>
@@ -387,6 +595,19 @@ jQuery(document).ready(function() {
 <script>
 smoothScroll.init();
 </script>
+
+<!-- Slick Script -->
+  <script src="js/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+      });
+    });
+  </script>
 
 <!-- Bootstrap JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>

@@ -98,6 +98,11 @@ p {
   margin: 10px;
 }
 
+.section-margin
+{
+    margin-top: -25px;
+}
+
 blockquote {
     font-size: 2em;
     font-weight: normal;
@@ -158,7 +163,7 @@ footer {
 
 /* Hide/Show Nav on Scroll Transition --------------------- 
 -------------------------------------------------------- */
-ul {
+ul.nav {
     z-index: 1;
     display: none;
     opacity: 0;
@@ -170,7 +175,7 @@ ul {
     transition: linear .25s; 
 }
 
-ul.alt {
+ul.nav.alt {
     height: 100px;
     display: inline;
     opacity: 1;
@@ -384,6 +389,7 @@ header p {
     header#Portfolio {
     background-color:#f7f7f7;
     }
+
     .profile {
     align-content: center;
     max-width: 300px; 
@@ -425,8 +431,12 @@ header p {
      margin: 50px 0px 18px 18px;
      }
 
+     .hidemobile {
+     display:flex;
+     }
+
     .showmobile {
-    display:none;
+     display:none;
      }
     }
 
@@ -435,6 +445,11 @@ header p {
     .image-bg-fixed-height {
      height: 225px;
      }
+
+    .hidemobile {
+    display:flex;
+    }
+
      .showmobile {
     display:none;
      }
@@ -445,6 +460,11 @@ header p {
     .image-bg-fixed-height {
      height: 300px;
      }
+
+    .hidemobile {
+    display:flex;
+    }
+
      .showmobile {
     display:none;
      }
@@ -455,6 +475,11 @@ header p {
     .image-bg-fixed-height {
      height: 350px;
      }
+
+    .hidemobile {
+    display:flex;
+    }
+
      .showmobile {
     display:none;
      }
@@ -465,6 +490,11 @@ header p {
     .image-bg-fixed-height {
      height: 400px;
      }
+
+    .hidemobile {
+    display:flex;
+    }
+
      .showmobile {
     display:none;
      }
