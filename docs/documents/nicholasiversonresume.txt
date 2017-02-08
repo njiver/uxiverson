@@ -24,7 +24,7 @@ Travel Writer and UX Contributor | March 2016  - Current.
 
 Capital One Investments, Seattle, USA.
 User Experience Designer | June 2016  - July 2016.
-- User research, planning, design, and testing for an IOS investing app for Capital One’s Managed Portfolios product.
+- User research, planning, design, and testing for an IOS investing app for Capital One's Managed Portfolios product.
 - Presented the prototype, design process, and deliverables to stakeholders at the Capital One offices in Seattle. 
 
 
@@ -45,11 +45,12 @@ BA Community, Environment, and Planning (CEP); Interdisciplinary Visual Arts (IV
 
 STRENGTHS:
 
+UX Design
+Visual Design
 User Research
-Content Writing
-Storyboarding
+Content
 Wireframing
-Human-Centered Design
+Prototyping
 Usability Testing
 
 Project Planning
@@ -63,15 +64,16 @@ Photoshop
 Illustrator
 InDesign
 Lightroom
-Axure
 Sketch
 InVision
+Axure
 Omnigraffle
 Sublime
 
 HTML
 CSS
 Bootstrap
+Git
 
 LANGUAGES:
 
