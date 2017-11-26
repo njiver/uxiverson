@@ -17,7 +17,6 @@ header {
     max-width: 760px;
     margin-top: 50px;
     margin-bottom: 25px;
-    min-width: 425px
 }
 
 .headermargin {
@@ -34,10 +33,15 @@ p {
   line-height: 2;
 }
 
+.profile {
+  float:left;
+  max-width: 200px; 
+  margin:8px 20px 20px 0px;
+}
+
 .aboutme {
     align-content: center;
     text-align:left;
-    max-width: 760px
   }
 
 .container-fluid {
@@ -57,6 +61,17 @@ p {
     background-color:#f7f7f7;
 }
 
+.active { 
+    color: #3295A8; /* Smooth transform <p> in header to blue color*/
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 5px; 
+    transition: font-size .25s linear; 
+    -o-transition: font-size .25s linear; 
+    -moz-transition: font-size .25s linear; 
+    -webkit-transition: font-size .25s linear; 
+}
+
 .home { 
     color: #3295A8; /* Smooth transform <p> in header to blue color*/
     font-size: 1em;
@@ -68,6 +83,25 @@ p {
     -webkit-transition: font-size .25s linear; 
 }
 
+
+.dropdown-menu {
+    background-color:#f7f7f7;
+    width: 70vw;
+    border-style: none;
+}
+
+.dropdown-menu > a:hover {
+   color: #CC5077;
+}
+
+.dropdown-item {
+  margin: 10px;
+}
+
+.section-margin
+{
+    margin-top: -25px;
+}
 
 blockquote {
     font-size: 2em;
@@ -129,7 +163,7 @@ footer {
 
 /* Hide/Show Nav on Scroll Transition --------------------- 
 -------------------------------------------------------- */
-ul {
+ul.nav {
     z-index: 1;
     display: none;
     opacity: 0;
@@ -141,7 +175,7 @@ ul {
     transition: linear .25s; 
 }
 
-ul.alt {
+ul.nav.alt {
     height: 100px;
     display: inline;
     opacity: 1;
@@ -335,17 +369,17 @@ header p {
 
     .container {
     margin-bottom: 0px;
-    max-width: 85vw;
+    max-width: 90vw;
     }
 
     header h1 {
-    font-size: 8vw;
+    font-size: 7.8vw;
     margin: 0px 0px;
     }
 
     header p { 
     color: #CC5077; /* Smooth transform <p> in header to red color*/
-    font-size: 4.4vw;
+    font-size: 4.2vw;
     }
 
     header#feature {
@@ -355,8 +389,22 @@ header p {
     header#Portfolio {
     background-color:#f7f7f7;
     }
-   }
 
+    .profile {
+    align-content: center;
+    max-width: 300px; 
+    margin:8px 20px 20px 0px;
+    }
+
+    .hidemobile {
+    display:none;
+    }
+
+    .showmobile {
+    display:flex;
+    }
+
+   }
 /* // Small devices (landscape phones, 544px and up) */
    @media (min-width: 544px) and (max-width: 767px) { 
     .image-bg-fixed-height {
@@ -382,6 +430,14 @@ header p {
      .container {
      margin: 50px 0px 18px 18px;
      }
+
+     .hidemobile {
+     display:flex;
+     }
+
+    .showmobile {
+     display:none;
+     }
     }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -389,19 +445,78 @@ header p {
     .image-bg-fixed-height {
      height: 225px;
      }
+
+    .hidemobile {
+    display:flex;
     }
 
-/* // Large devices (desktops, 992px and up) */
+     .showmobile {
+    display:none;
+     }
+    }
+
+/* // Large devices (992px and up) */
    @media (min-width: 992px) and (max-width: 1199px) { 
     .image-bg-fixed-height {
      height: 300px;
      }
+
+    .hidemobile {
+    display:flex;
     }
 
-/* // Extra large devices (large desktops, 1200px and up) */
+     .showmobile {
+    display:none;
+     }
+    }
+
+/* // Extra large devices (1200px and up) */
   @media (min-width: 1200px) and (max-width: 1600px) { 
     .image-bg-fixed-height {
      height: 350px;
+     }
+
+    .hidemobile {
+    display:flex;
+    }
+
+     .showmobile {
+    display:none;
+     }
+    }
+
+/* // Extra large devices (1600px and up) */
+  @media (min-width: 1601px) and (max-width: 1920px) { 
+    .image-bg-fixed-height {
+     height: 400px;
+     }
+
+    .hidemobile {
+    display:flex;
+    }
+
+     .showmobile {
+    display:none;
+     }
+    }
+
+.aligncontainer {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    position: relative;
+} 
+/* // 1080p to 8k (large desktops, 1200px and up) */
+  @media (min-width: 1921px) and (max-width: 7680px) { 
+    .image-bg-fixed-height {
+     height: 400px;
+     }
+
+    .hidemobile {
+    display:flex;
+    }
+
+     .showmobile {
+    display:none;
      }
     }
 

@@ -10,46 +10,54 @@ Seattle, WA
 
 EXPERIENCE: 
 
-Visual Designer (Freelance) | August 2016 - Current.
-Granvas, Miami, USA.
-- Designed material and glyph style web icons for the Granvas site.
-- Created visual metaphors that marry artistic styles to functional icons.
+UX Writer (Freelance) | May 2017 - August 2017. 
+Lazada Group, Ho Chi Minh City, Vietnam.
+- Implemented style objectives for Lazada's ChatBot and Help Center.
+- Advocated for consistent tone and voice in messaging scripts and FAQ's.
+- Overhauled Help Center content to match user experience goals for three countries: Singapore, Malaysia, and Philippines.
 
-The Curated Travel, Seattle, USA. (Freelance)
-Travel Writer and UX Contributor | March 2016  - Current.
+Travel Writer and UX Contributor (Freelance) | March 2016  - Current.
+The Curated Travel, New York, USA.
 - Wrote travel content published online for The Curated Travel. 
 - Contributed high quality original photographs of travel destinations.
 - Recommended user experience improvements across the site. 
 
+Visual Designer (Freelance) | August 2016 - March 2017.
+Granvas, Miami, USA.
+- Designed material and glyph style web icons for the Granvas site.
+- Created visual metaphors that marry artistic styles to functional icons.
 
-Capital One Investments, Seattle, USA.
 User Experience Designer | June 2016  - July 2016.
-- User research, planning, design, and testing for an IOS investing app for Capital One’s Managed Portfolios product.
+Capital One Investments, Seattle, USA.
+- User research, planning, design, and testing for an IOS investing app for Capital One's Managed Portfolios product.
 - Presented the prototype, design process, and deliverables to stakeholders at the Capital One offices in Seattle. 
 
-
-Vietnam USA Society, Ho Chi Minh City, Vietnam. 
-English Teacher | December 2012 - July 2015.
-- Planned lessons to inspire learning for students of all ages and levels. 
-- Facilitated classrooms for learners of English as a second language. 
-- Designed innovative activities to enhance learning engagement. 
+Professional Development Trainer (Contract) | June 2013 - June 2015
+Friesland Campina, Agribank Vietnam, Ho Chi Minh City, Vietnam
+- Developed and customized a curriculum for engineers and managers.
+- Lead discussion seminars to improve interaction for professionals.
+- Scaled summative assessments to measure student progress.
  
 
 EDUCATION: 
 
+Coursera, University of Cal. San Diego | April 2017 - December 2017.
+Interaction Design Specialization. (In Progress 2017)
+
 General Assembly, Seattle, USA. | May 2016 - July 2016.
-User Experience Design Immersive Student.
+User Experience Design Immersive.
 
 University of Washington, Seattle, USA. | 2007 - 2012.
-BA Community, Environment, and Planning (CEP); Interdisciplinary Visual Arts (IVA); Minors in Architecture and Landscape Architecture, University of Washington, Seattle.
+BA Community, Environment, and Planning (CEP); Interdisciplinary Visual Arts (IVA); Minors in Architecture and Landscape Architecture.
 
 STRENGTHS:
 
+UX Design
+Visual Design
 User Research
-Content Writing
-Storyboarding
+Content
 Wireframing
-Human-Centered Design
+Prototyping
 Usability Testing
 
 Project Planning
@@ -63,15 +71,16 @@ Photoshop
 Illustrator
 InDesign
 Lightroom
-Axure
 Sketch
 InVision
+Axure
 Omnigraffle
 Sublime
 
 HTML
 CSS
 Bootstrap
+Git
 
 LANGUAGES:
 
