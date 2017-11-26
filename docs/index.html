@@ -342,7 +342,7 @@
 <!-- Desktop Content -->
 <!-- Desktop Content Row 1 -->
 <!-- Slider 1 -->
-<div class="container visible hidemobile">
+<div class="container hidden hidemobile">
  <section class="page col-sm-12">
   <h2>UX/UI Design</h2>
   <div class="row">
@@ -435,7 +435,7 @@
 
 <!-- Desktop Content Row 2 -->
 <!-- Slider 2 -->
-  <div class="container visible hidemobile section-margin">
+  <div class="container hidden hidemobile section-margin">
     <section class="page col-sm-12">
       <h2>Writing and Photography</h2>
         <div class="row">
@@ -492,7 +492,7 @@
 
  <!-- Desktop Content Row 3 -->
  <!-- Slider 2 -->
-  <div class="container visible hidemobile section-margin">
+  <div class="container hidden hidemobile section-margin">
     <section class="page col-sm-12">
       <h2>Design and Sculpture</h2>
         <div class="row">
@@ -572,7 +572,7 @@
 <div id="AboutMe"></div>
 <br>
 <div class="container-fluid resume">
- <section class="container visible">
+ <section class="container hidden">
   <h2 class="index">About Me</h2>
               <img class="img-fluid card profile" src="coverimages/nick.jpg" alt="Nick">
                   <div class="aboutme">
@@ -605,7 +605,7 @@
 <div id="Resume"></div>
 <br>
 <div class="container-fluid">
-  <section class="container visible">
+  <section class="container hidden">
     <h2 class="index">Skills</h2>
       <div class="aboutme">
          <p>UX Design, Visual Design, User Research, Content, Wireframing, Prototyping, Usability Testing, Personas, Scenarios, User Flow, Moderated and Remote Testing.
@@ -625,7 +625,7 @@
 
 <!-- Resume -->
 <div class="container-fluid resume">
-  <section class="container visible">
+  <section class="container hidden">
     <h2 class="index">Resume</h2>
       <p>
         <a class="nav-link col-sm-6 btn-resume  btn-primary" href="documents/nicholasiversonresume.pdf">.pdf</a>
@@ -646,6 +646,18 @@
   <span> 425.374.9040 </span>
 </footer>
 <!-- Content end -->
+
+<!-- CSS Animate js -->
+<script src="cssanimationeffects/jquery.min.js"></script> 
+<script src="cssanimationeffects/viewportchecker.js"></script> 
+<script type="text/javascript">
+jQuery(document).ready(function() {
+  jQuery('.container').addClass('visible').viewportChecker({
+      classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
+      offset: 100    
+     });   
+});            
+</script>
 
 <!-- Smooth Scroll JS -->
 <script src="js/smoothscroll.js"></script>
